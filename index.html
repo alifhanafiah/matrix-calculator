@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matrix Calculator</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="icon" href="img/matrix.png" type="image/png" />
+  </head>
+  <body>
+    <div class="wrap">
+      <h1>Matrix Calculator</h1>
+      <div class="main">
+        <div class="calculator">
+          <div class="matrixA">
+            <p class="title">Matrix A</p>
+            <p class="text">Lines</p>
+            <input type="text" name="lines-A" id="lines-A" placeholder="Insert Number Here" />
+            <p class="text">Columns</p>
+            <input type="text" name="columns-A" id="columns-A" placeholder="Insert Number Here"/>
+            <p class="generate"><a href="#" id="fill-matrix-A">Generate Matrix</a></p>
+            <div id="container-A" class="container"></div>
+          </div>
+          <div class="matrixB">
+            <p class="title">Matrix B</p>
+            <p class="text">Lines</p>
+            <input type="text" name="lines-B" id="lines-B" placeholder="Insert Number Here" />
+            <p class="text">Columns</p>
+            <input type="text" name="columns-B" id="columns-B" placeholder="Insert Number Here"/>
+            <p class="generate"><a href="#" id="fill-matrix-B">Generate Matrix</a></p>
+            <div id="container-B" class="container"></div>
+          </div>
+          <div class="operation1">
+            <button type="button" id="multiply-btn">A x B</button>
+            <button type="button" id="plus-btn">A + B</button>
+            <button type="button" id="minus-btn">A - B</button>
+          </div>
+
+          <!-- **BELUM SELESAI JS NYA** -->
+
+          <!-- <div class="operation2">
+            <button type="button" id="determinant-btn">Determinant</button>
+            <button type="button" id="transpose-btn">Transpose</button>
+            <button type="button" id="invers-btn">Invers</button>
+          </div> -->
+          
+          <div class="result">
+            <p class="title">Result</p>
+            <div id="container-C" class="container"></div>
+          </div>
+        </div>
+        <div class="description">
+          <p class="desc">
+            You can enter numbers according to the ordo of the matrix that has
+            been selected
+          </p>
+          <p class="desc">Then choose what operation you need</p>
+          <p class="desc">The required calculation results will be completed</p>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="contact-us">
+          <div class="contact-item">
+            <p class="title">CREATORS</p>
+            <ul>
+              <li><p class="text">Fauzi Fadlul Ramadhan</p>
+                  <p class="nobp">19101152630012</p></li>
+              <li><p class="text">Fran Setya</p>
+                  <p class="nobp">19101152630013</p></li>
+              <li><p class="text">Lidya Adriani Darma Wetri</p>
+                  <p class="nobp">19101152630017</p></li>
+              <li><p class="text">Muhammad Alif Hanafiah</p>
+                  <p class="nobp">19101152630021</p></li>
+              <li><p class="text">Vinsensius Ivander Swadaya Salim</p>
+                  <p class="nobp">19101152630036</p></li>
+            </ul>
+          </div>
+          <div class="contact-item">
+            <p class="title">SOCIAL</p>
+            <ul>
+              <li><p class="ig-account">
+                <a href="https://www.instagram.com/fauzi_ramadhan100/" class="fa fa-instagram" target="_blank">&nbsp;fauzi_ramadhan100</a>
+              </p></li>
+              <li><p class="ig-account">
+                <a href="https://www.instagram.com/fran_setya_19/" class="fa fa-instagram" target="_blank">&nbsp;fran_setya_19</a>
+              </p></li>
+              <li><p class="ig-account">
+                <a href="https://www.instagram.com/lidyadarma25/" class="fa fa-instagram" target="_blank">&nbsp;lidyadarma25</a>
+              </p></li>
+              <li><p class="ig-account">
+                <a href="https://www.instagram.com/alifff_hanafiah/" class="fa fa-instagram" target="_blank">&nbsp;alifff_hanafiah</a>
+              </p></li>
+            </ul>
+          </div>
+          <div class="contact-item">
+            <p class="title">EMAIL</p>
+            <ul>
+              <li><p class="email-account">
+                <a href="mailto:fauzifadlulramadhan1@gmail.com" class="fa fa-google">&nbsp;fauzifadlulramadhan1@gmail.com</a>
+              </p></li>
+              <li><p class="email-account">
+                <a href="mailto:fransetya5@gmail.com" class="fa fa-google">&nbsp;fransetya5@gmail.com</a>
+              </p></li>
+              <li><p class="email-account">
+                <a href="mailto:lidyadarma25@gmail.com" class="fa fa-google">&nbsp;lidyadarma25@gmail.com</a>
+              </p></li>
+              <li><p class="email-account">
+                <a href="mailto:muhalifhanafiah@gmail.com" class="fa fa-google">&nbsp;muhalifhanafiah@gmail.com</a>
+              </p></li>
+              <li><p class="email-account">
+                <a href="mailto:ivanderlim108@gmail.com" class="fa fa-google">&nbsp;ivanderlim108@gmail.com</a>
+              </p></li>
+            </ul>
+          </div>
+          <div class="contact-item">
+            <p class="title">RANDOM QUOTE</p>
+            <blockquote>
+              <p class="text">
+                "To be yourself in a world that is constantly trying to make you
+                something else is the greatest accomplishment"
+              </p>
+              <br />
+              <br />
+              <cite>Ralp Waldo Emerson</cite>
+            </blockquote>
+          </div>
+        </div>
+        <div class="copyright">
+          <p class="copyright"><span>&copy;</span>&nbsp;Copyright 2021</p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="matrix.js"></script>
+  </body>
+</html>
